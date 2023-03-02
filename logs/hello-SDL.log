@@ -1,0 +1,57 @@
+* 000000 [Engine] Log started at 2023/3/2 10:18:2
+* 000000 [Engine] This copy of the engine is git hash d64ebd241c151e2d7e5728efcce51a8263789528, built on Sep  5 2022, at 22:42:23
+* 000000 [Engine] Platform: Mac OS X
+* 000000 [Engine] 
+* 000000 [Engine] *******************************************************************************************
+* 000000 [Engine] *** This is the Standard license build!                                                 ***
+* 000000 [Engine] *** Get more with an Indie or Pro license such as C extensions, mobile dev, and VR dev! ***
+* 000000 [Engine] *** Details at http://dragonruby.org/toolkit/game#purchase                              ***
+* 000000 [Engine] *******************************************************************************************
+* 000000 [Engine] 
+! 000000 [Engine] Metadata file does not have all required fields!
+- 000000 [Engine] Game Dir: /Users/terry/dragonruby/zoop//mygame
+- 000000 [Engine] Game ID: hello-SDL
+- 000000 [Engine] Game title: Update metadata/game_metadata.txt in your mygame directory to change this title.
+- 000000 [Engine] Game version: 1.0
+- 000000 [Engine] Game package ID: org.dragonruby.hello-SDL
+- 000000 [Engine] Game Developer ID: dragonruby
+- 000000 [Engine] Game Developer title: DragonRuby LLC
+- 000000 [Engine] Production build: no
+? 000001 [Engine] RNG seed has been set to 1677752284.
+- 000001 [Engine] Janitor is using 4 threads.
+? 000002 [Engine] Marked app/main.rb for reload. (-1)
+- 000076 [Game] Game state and exception will be written to logs/exceptions/game_state_4440.txt and logs/exceptions/current.txt.
+- 000076 [Game] * EXCEPTION: GAME OVER
+** Backtrace:
+*** app/game.rb:22:in tick
+*** app/game.rb:19:in tick
+*** app/main.rb:13:in tick
+*** app/target.rb:1 (4440)
+- 000076 [Game] 
+- 000076 [Game] * WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+- 000076 [Game] 
+- 000076 [Game] [Message ID: []]
+- 000076 [Game] 
+* 000085 [Engine] Logging shutting down

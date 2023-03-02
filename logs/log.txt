@@ -1,0 +1,1354 @@
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: NilClass does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class NilClass
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: [:NilClass]]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { args: args }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7fe850056780>
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7fbc100446a0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fbc10031bf0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f9858036db0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fc208042e40>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fc678058a30>
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7fc6780b51b0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7fc11803c5b0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7f7d980707d0>
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7f7ec8044220>
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7fbb000639e0>
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7fc4680439e0>
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7f9a40063980>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f9a4009b440>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Background] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Background:0x7f8408062270>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Background] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Background:0x7fda90042270>
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Line] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Line:0x7feae0064ac0>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fbbe0036cc0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fd3f80570e0>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fab08056cc0>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f9118064130>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f7de0045390>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fdb200359d0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fb4c0062570>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f95e0036cc0>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fbe38036cc0>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f9c48037800>
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f97a8036cc0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fae000370e0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7f79a8056cc0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Target] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Target:0x7fee080370e0>
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Background does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Background
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+

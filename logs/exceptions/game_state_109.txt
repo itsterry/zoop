@@ -1,0 +1,17 @@
+# * EXCEPTION:
+# * ERROR - :state method missing on ~NilClass~.
+# The method named
+# :state
+# doesn't exist on
+# [NilClass, NilClass, NilClassFalseClass].
+# #+begin_src ~NilClass#inspect~
+# nil
+# #+end_src ~NilClass#inspect~ for :state method missing on ~NilClass~
+# ** Backtrace:
+# *** app/main.rb:17:in player
+# *** app/player.rb:13:in handle_input
+# *** app/main.rb:11:in tick
+# *** app/player.rb:1
+
+Game State:
+{:state=>{:entity_id=>3, :tick_count=>109, :player=>#<Player:0x7f7aa0064d00>}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:raw_key=>108, :right=>108, :truthy_keys=>[:raw_key, :right]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>true}, :mouse=>{:x=>389.0, :y=>359.0, :moved=>nil, :moved_at=>46, :has_focus=>true}, :text=>[]}, :passes=>[], :outputs=>{:solids=>[{:x=>40, :y=>10, :w=>1200, :h=>700, :r=>92, :g=>120, :b=>230}, {:x=>540, :y=>260, :w=>200, :h=>200, :r=>0, :g=>0, :b=>0}], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:allscreen_right=>1280, :device_width=>1280, :allscreen_top=>720, :device_height=>720, :ffi_draw=>"", :render_width=>1280, :render_height=>720, :origin_x=>0.0, :allscreen_left=>0, :render_scale=>1.0, :render_scale_enum=>100, :left=>0.0, :device_right=>1280, :allscreen_height=>720, :render_offset_x=>0, :device_left=>0.0, :origin_y=>720, :top=>720, :render_offset_y=>0, :allscreen_width=>1280, :device_top=>720, :right=>1280, :device_bottom=>0.0, :allscreen_bottom=>0, :center=>[640.0, 360.0], :name=>:bottom_left, :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720], :allscreen_offset_y=>0, :center_x=>640.0, :allscreen_offset_x=>0, :runtime=>{:argv=>"./dragonruby", :platform=>"Mac OS X", :required_files=>["app/background.rb", "app/player.rb"], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}]}, "app/background.rb"=>{:current=>{:path=>"app/background.rb", :global_at=>-1, :event=>:reload_completed}, :history=>[{:path=>"app/background.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/background.rb", :global_at=>-1, :event=>:reload_completed}]}, "app/player.rb"=>{:current=>{:path=>"app/player.rb", :global_at=>-1, :event=>:reload_completed}, :history=>[{:path=>"app/player.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/player.rb", :global_at=>-1, :event=>:reload_completed}]}}}, :bottom_margin=>0.0, :left_margin=>0.0, :bottom=>0.0}}
